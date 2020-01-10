@@ -6,6 +6,7 @@
   margin: 0 auto;
   background-color: #78866b;
 }
+
 body {
   background-color: #fff;
   width: 100%;
@@ -54,6 +55,7 @@ nav ul li a:hover{
   color: #530135;
   font-weight: bold;
 }
+
 /*favicon*/
 .reseaux ul{
   width: 100%;
@@ -91,12 +93,15 @@ nav ul li a:hover{
 /*page accueil*/
 .presentation {
     text-align: center;
-
     line-height: 1.5em;
 }
 .presentation h1 {
 padding-top: 4%;
-
+font-weight: bold;
+}
+a.cv{
+text-shadow: 0 0 0 black;
+text-decoration: underline;
 }
 .presentation p.pre {
   padding: 5%;
@@ -212,7 +217,7 @@ form div input[type='submit'] {
       box-shadow: 4px 4px 0 black;
       font-family: 'Nunito', sans-serif;
     }
-    form div input[type='submit']:hover{
+form div input[type='submit']:hover{
       background-color: #530135;
     }
 
@@ -222,7 +227,21 @@ form fieldset {
 form textarea {
 
   }
+  /*Mentions*/
+  p.texte1 {
+    text-align: center;
 
+  }
+  p.texte2 {
+    text-align: center;
+    padding: 0 2% 2% 2%;
+
+  }
+.mentions h1 {
+  text-align: center;
+  padding: 2% 0 2% 0;
+  font-weight: bold;
+}
 /*footer*/
 footer {
   width: 100%;
@@ -375,7 +394,7 @@ nav.fin ul li a:hover{
   }
   section.cv {
     width: 100%;
-    height: 2200px;
+    height: 2300px;
     background-color: #78866b;
   }
   .cv h2 {
@@ -397,31 +416,33 @@ nav.fin ul li a:hover{
   .cv ul{
     line-height: 1.5em;
   }
+  ul.logiciel {
+    line-height: 0.5em;
+  }
   article.scolaire{
     position: relative;
-    width: 30%;
-    float: left;
+    width: 100%;
 
   }
 
   article.competence {
     position: relative;
-    width: 50%;
-    float: left;
-
-
+    width: 100%;
   }
   article.competence p{
     font-weight: bold;
+    text-align: center;
   }
   h2 {
     width: 100%;
     margin-top: 2%;
     font-weight: bold;
     font-family: 'Bowlby One', sans-serif;
+    text-align: center;
   }
   h3 {
     font-weight: bold;
+    text-align:center;
   }
   ul.logiciel{
     text-align: center;
@@ -446,7 +467,8 @@ nav.fin ul li a:hover{
   form div label {
       float: left;
       width: 140px;
-      text-align: left;
+      margin-left: 25%;
+      text-align: center;
       }
 
   form div input[type='submit'] {
@@ -462,15 +484,28 @@ nav.fin ul li a:hover{
         background-color: #530135;
       }
 
-  form fieldset {
-
-  }
   form textarea {
     margin-right: 10%;
     }
+
     .fichier {
       width: 50%;
     }
+    /*Mentions*/
+    p.texte1 {
+      text-align: center;
+
+    }
+    p.texte2 {
+      text-align: center;
+      padding: 0 2% 2% 2%;
+
+    }
+  .mentions h1 {
+    text-align: center;
+    padding: 2% 0 2% 0;
+    font-weight: bold;
+  }
 
   /*footer*/
   footer {
@@ -500,4 +535,284 @@ nav.fin ul li a:hover{
     color: #530135;
     font-weight: bold;
   }
+  /*Mentions*/
+  p.texte1 {
+    text-align: center;
+
+  }
+  p.texte2 {
+    text-align: center;
+    padding: 0 2% 2% 2%;
+
+  }
+.mentions h1 {
+  text-align: center;
+  padding: 2% 0 2% 0;
+  font-weight: bold;
+}
+@media screen and (max-width: 599px) {
+  .wrap {
+    width: 100%;
+    max-width: 599px;
+    margin: 0 auto;
+    background-color: #78866b;
+  }
+  body {
+    background-color: #fff;
+    width: 100%;
+    color: #000;
+    font-size: 0.9em;
+    font-family: 'Nunito', sans-serif;
+  }
+  a {
+    color: purple;
+    text-decoration: none;
+    text-shadow: 2px 2px 0 black;
+  }
+  a:hover {
+    color: #530135;
+  }
+  /*Header*/
+  header {
+    width: 100%;
+    height: 133px;
+    background-color: purple;
+  }
+  /*menu*/
+  nav {
+    width: 100%;
+    padding-top: 2%;
+  }
+  nav ul {
+    display: block;
+    width: 100%;
+
+  }
+  nav ul li {
+    text-decoration: none;
+    width: 25%;
+    float: left;
+    text-align: center;
+  }
+  nav ul li a {
+    color: #ffff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  nav ul li a:hover{
+    color: #530135;
+    font-weight: bold;
+  }
+  /*favicon*/
+  .reseaux ul{
+    width: 100%;
+    margin-top: 15%;
+    text-align: center;
+  }
+  .reseaux ul li{
+    width: 33.3%;
+    float: left;
+  }
+  .fa-facebook-square {
+    color: #ffff;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 black;
+  }
+  .fa-facebook-square:hover{
+    color: #530135;
+  }
+  .fa-twitter-square {
+    color: #ffff;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 black;
+  }
+  .fa-twitter-square:hover{
+    color: #530135;
+  }
+  .fa-linkedin{
+    color: #ffff;
+    font-size: 2em;
+    text-shadow: 2px 2px 0 black;
+  }
+  .fa-linkedin:hover{
+    color: #530135;
+  }
+  /*page accueil*/
+  .presentation {
+      text-align: center;
+      line-height: 1.5em;
+  }
+  .presentation h1 {
+  padding-top: 4%;
+
+  }
+  .presentation p.pre {
+    padding: 5%;
+  }
+  /*page CV*/
+  img {
+  	width: 150px;
+  	height: 100px;
+
+  }
+  section.info{
+    width: 100%;
+    height: 100px;
+    background-color: #a699bc;
+  }
+  .photo {
+    width: 30%;
+    float : left;
+  }
+  .coordonnee {
+    width: 55%;
+    float: left;
+    margin-left: 15%;
+    text-align: left;
+    font-family: 'Bowlby One', sans-serif;
+  }
+  section.cv {
+    width: 100%;
+    height: 2300px;
+    background-color: #78866b;
+  }
+  .cv h2 {
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 2%;
+  }
+  .cv h3{
+    font-size: 0.9em;
+  }
+  .cv p.lieu{
+    font-style: italic;
+
+  }
+  .cv p{
+    padding-bottom: 2%;
+    font-family: 'Nunito', sans-serif;
+  }
+  .cv ul{
+    line-height: 1.5em;
+  }
+  ul.logiciel {
+    line-height: 0.5em;
+  }
+  article.scolaire{
+    position: relative;
+    width: 100%;
+
+  }
+
+  article.competence {
+    position: relative;
+    width: 100%;
+  }
+  article.competence p{
+    font-weight: bold;
+    text-align: center;
+  }
+  h2 {
+    width: 100%;
+    margin-top: 2%;
+    font-weight: bold;
+    font-family: 'Bowlby One', sans-serif;
+    text-align: center;
+  }
+  h3 {
+    font-weight: bold;
+    text-align:center;
+  }
+  ul.logiciel{
+    text-align: center;
+    line-height: 2.2em;
+    font-weight: bold;
+  }
+  /*formulaire*/
+  .contact {
+    text-align: center;
+    line-height: 3em;
+    font-family: 'Nunito', sans-serif;
+  }
+  form {
+    background-color: silver;
+    width: 70%;
+    padding: 20px;
+    margin-left: 8%;
+  }
+  form div {
+    padding: 10px 0;
+    }
+  form div label {
+      float: left;
+      width: 140px;
+      margin-left: 25%;
+      text-align: center;
+      }
+
+  form div input[type='submit'] {
+        background-color: #78866b;
+        color: White;
+        font-size: 1.5em;
+        border-radius: 10px;
+        text-shadow: 2px 2px 0 black;
+        box-shadow: 4px 4px 0 black;
+        font-family: 'Nunito', sans-serif;
+      }
+      form div input[type='submit']:hover{
+        background-color: #530135;
+      }
+
+  form textarea {
+    margin-right: 10%;
+    }
+
+    .fichier {
+      width: 50%;
+    }
+    /*Mentions*/
+    p.texte1 {
+      text-align: center;
+
+    }
+    p.texte2 {
+      text-align: center;
+      padding: 0 2% 2% 2%;
+
+    }
+  .mentions h1 {
+    text-align: center;
+    padding: 2% 0 2% 0;
+    font-weight: bold;
+  }
+
+  /*footer*/
+  footer {
+    width: 100%;
+    background-color: purple;
+
+  }
+  .legale p{
+   text-align: center;
+   margin: 12% 0;
+  }
+  nav.fin ul {
+    display: block;
+    width: 100%;
+
+
+  }
+  nav.fin ul li {
+    width: 46%;
+    float: left;
+    margin-right: 2%;
+  }
+  nav.fin ul li a {
+    text-shadow: 2px 2px 0 black;
+  }
+  nav.fin ul li a:hover{
+    color: #530135;
+    font-weight: bold;
+  }
+  
 }

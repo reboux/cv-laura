@@ -39,6 +39,6 @@
             </fieldset>
           <input type="hidden" name="frmContact" />
       </form>
-         <p class="information">* Les champs marqués par un * sont obligatoires</p>
+         <p>* Les champs marqués par un * sont obligatoires</p>
     </section>
 </div>

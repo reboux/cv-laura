@@ -9,7 +9,7 @@
                   <h1>Laura Reboux </h1>
                    <p>80 rue du champs des oiseaux </br>76000 Rouen</br>
                       07 81 61 48 06 </br>
-                      <a href="mailto:laurareboux@hotmail.fr">laurareboux@hotmail.fr</a></br>
+                      <a href="mailto:laurareboux@hotmail.fr" class="email">laurareboux@hotmail.fr</a></br>
                       Permis B</p>
               </div>
         </section>
@@ -18,12 +18,12 @@
             <article class="scolaire">
                 <h2>Formations</h2>
                     <ul class="logiciel">
-                        <li>2019-2020 Certification N'Factory School
-                        Référent Digital</li></br>
-                        <li>2018 - 2019 Certification Webforce3
-                        Codeur/Développeur web </li></br>
-                        <li>2011 - 2013 BTS Communication</li></br>
-                        <li>2009 - Bac STG Communication</li></br>
+                        <li>2019-2020 Certification N'Factory School</br>
+                        Référent Digital</li>
+                        <li>2018 - 2019 Certification Webforce3</br>
+                        Codeur/Développeur web </li>
+                        <li>2011 - 2013 BTS Communication</li>
+                        <li>2009 - Bac STG Communication</li>
                     </ul>
                 <h2>Logiciels utilisées</h2>
                     <ul class= "logiciel">

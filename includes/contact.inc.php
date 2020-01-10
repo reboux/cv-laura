@@ -66,7 +66,7 @@ if (isset($_POST['frmContact'])) {
                    $erreur = "Problème de lecture du fichier $name";
                $focus = 7;
 
-               
+
               }
          }
 
@@ -97,13 +97,13 @@ if (isset($_POST['frmContact'])) {
         $query->bindValue(':mail', $mail, PDO::PARAM_STR);
         $query->bindValue(':tel', $tel, PDO::PARAM_STR);
         $query->bindValue(':message', $message, PDO::PARAM_STR);
-        $query->bindValue('fichier', $fichier, PDO::PARAM_STR);
+        $query->bindValue(':fichier', $fichier, PDO::PARAM_STR);
         $query->execute();
         echo "votre message est envoyé";
         }
       }
     }
     else {
-      $nom = $prenom = $mail = $message = "";
+      $nom = $prenom = $mail = $tel = $message = "";
       require 'frmContact.php';
     }
